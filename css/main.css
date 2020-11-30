@@ -1,7 +1,8 @@
 /*  Start Main Rulez */
 
 body {
-    background: #888;
+    /* remove latter */
+    height: 5000px;
 }
 
 .container {
@@ -48,3 +49,22 @@ body {
 
 
 /*  End Header */
+
+
+/*  Start Features */
+
+.features {
+    overflow: hidden;
+}
+
+.features .feat {
+    width: 33.333%;
+    float: left;
+    height: 150px;
+    /* remove latter */
+    background: #DDD;
+}
+
+.features .feat h2 {
+    text-transform: uppercase;
+}
