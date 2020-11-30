@@ -1,70 +1,98 @@
-/*  Start Main Rulez */
-
-body {
-    /* remove latter */
-    height: 5000px;
-}
-
-.container {
-    width: 1170px;
-    margin: auto;
-}
-
-
-/*  End Main Rulez */
-
-
-/*  Start Header */
-
-.header .slider {
-    background: lightblue;
-    height: 600px;
-}
-
-.header .navbar {
-    background: #252F31;
-    color: #fff;
-    overflow: hidden;
-}
-
-.header .navbar h2 {
-    float: left;
-    text-transform: uppercase;
-}
-
-.header .navbar h2 span {
-    color: #2ecc71;
-}
-
-.header .navbar ul {
-    list-style: none;
-    padding-left: 0px;
-    float: right;
-}
-
-.header .navbar ul li {
-    float: left;
-    padding: 10px;
-}
-
-
-/*  End Header */
-
-
-/*  Start Features */
-
-.features {
-    overflow: hidden;
-}
-
-.features .feat {
-    width: 33.333%;
-    float: left;
-    height: 150px;
-    /* remove latter */
-    background: #DDD;
-}
-
-.features .feat h2 {
-    text-transform: uppercase;
-}
+    /*  Start Main Rulez */
+    
+    body {
+        /* remove latter */
+        height: 5000px;
+    }
+    
+    .container {
+        width: 1170px;
+        margin: auto;
+    }
+    /*  End Main Rulez */
+    /*  Start Header */
+    
+    .header .slider {
+        background: lightblue;
+        /* maybe remvoe latter */
+        height: 200px;
+    }
+    
+    .header .navbar {
+        background: #252F31;
+        color: #fff;
+        overflow: hidden;
+    }
+    
+    .header .navbar h2 {
+        float: left;
+        text-transform: uppercase;
+    }
+    
+    .header .navbar h2 span {
+        color: #2ecc71;
+    }
+    
+    .header .navbar ul {
+        list-style: none;
+        padding-left: 0px;
+        float: right;
+    }
+    
+    .header .navbar ul li {
+        float: left;
+        padding: 10px;
+    }
+    /*  End Header */
+    /*  Start Features */
+    
+    .features {
+        overflow: hidden;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .features .feat {
+        width: 33.333%;
+        float: left;
+        height: 150px;
+        /* remove latter */
+        background: #DDD;
+    }
+    
+    .features .feat h2 {
+        text-transform: uppercase;
+    }
+    /*  End Features */
+    /*  Start About Me */
+    
+    .about-me {
+        background: #f2f2f2;
+        overflow: hidden;
+    }
+    
+    .about-me .image {
+        float: left;
+        width: 40%;
+    }
+    
+    .about-me .image img {
+        width: 100%;
+    }
+    
+    .about-me .info {
+        float: left;
+        width: 60%;
+    }
+    
+    .about-me .info .hobbies {
+        overflow: hidden;
+        margin: 20px;
+    }
+    
+    .about-me .info .hobbies>div {
+        float: left;
+        width: 50%;
+        min-height: 100px;
+    }
+    /*  End About Me */
