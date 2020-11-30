@@ -9,6 +9,10 @@
         width: 1170px;
         margin: auto;
     }
+    
+    .clearFix {
+        clear: both;
+    }
     /*  End Main Rulez */
     /*  Start Header */
     
@@ -101,6 +105,7 @@
     .my-skills {
         padding-top: 30px;
         padding-bottom: 30px;
+        overflow: hidden;
     }
     
     .my-skills .skills,
@@ -109,3 +114,26 @@
         width: 50%;
     }
     /*  End My Skills */
+    /*  End Resume */
+    
+    .resume {
+        background: #f2f2f2;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    /*  End Resume */
+    /*  Start My Education */
+    
+    .my-education {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        overflow: hidden;
+    }
+    
+    .my-education .main,
+    .my-education .exp {
+        float: left;
+        width: 50%;
+    }
+    /*  End My Education */
