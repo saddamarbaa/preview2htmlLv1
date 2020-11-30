@@ -114,7 +114,7 @@
         width: 50%;
     }
     /*  End My Skills */
-    /*  End Resume */
+    /*  Start Resume */
     
     .resume {
         background: #f2f2f2;
@@ -137,3 +137,12 @@
         width: 50%;
     }
     /*  End My Education */
+    /*  Start Testemonials */
+    
+    .testemonials {
+        background: #f2f2f2;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    /*  End Testemonials */
