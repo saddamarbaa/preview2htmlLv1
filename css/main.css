@@ -96,3 +96,16 @@
         min-height: 100px;
     }
     /*  End About Me */
+    /*  Start My Skills */
+    
+    .my-skills {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .my-skills .skills,
+    .my-skills .progress {
+        float: left;
+        width: 50%;
+    }
+    /*  End My Skills */
