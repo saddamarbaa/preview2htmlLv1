@@ -251,6 +251,22 @@
         padding-bottom: 70px;
         text-align: center;
     }
+    
+    .resume h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #666;
+    }
+    
+    .resume p {
+        line-height: 1.7;
+        color: #666;
+        padding: 0 20px;
+    }
+    
+    .resume button {
+        margin-top: 15px;
+    }
     /*  End Resume */
     /*  Start My Education */
     
@@ -335,5 +351,6 @@
         background: none;
         padding: 10px 30px;
         color: #2DCC70;
+        font-weight: bold;
     }
     /* End Framework */
