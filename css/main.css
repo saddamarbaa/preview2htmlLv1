@@ -17,9 +17,38 @@
     /*  Start Header */
     
     .header .slider {
-        background: lightblue;
+        background-image: url('../images/slider.jpg');
+        /* only CSS3 Feature */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
         /* maybe remvoe latter */
-        height: 200px;
+        height: 600px;
+    }
+    
+    .header .slider .intro {
+        height: 600px;
+        padding-top: 200px;
+        text-align: center;
+        color: #FFF;
+    }
+    
+    .header .slider .intro h1 {
+        margin: 0 auto;
+        width: 600px;
+        border-top: 4px solid #fff;
+        border-bottom: 4px solid #fff;
+        padding: 5px 0;
+    }
+    
+    .header .slider .intro button {
+        background: none;
+        margin-top: 30px;
+        font-size: 20px;
+        border: 1px solid #fff;
+        font-weight: bold;
+        padding: 10px 30px;
     }
     
     .header .navbar {
@@ -46,6 +75,16 @@
     .header .navbar ul li {
         float: left;
         padding: 10px;
+    }
+    
+    .header .navbar ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .header .navbar ul li.active a,
+    .header .navbar ul li a:hover {
+        color: #30B576;
     }
     /*  End Header */
     /*  Start Features */
