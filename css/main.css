@@ -190,7 +190,7 @@
     
     .my-skills {
         padding-top: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 50px;
         overflow: hidden;
     }
     
@@ -222,6 +222,29 @@
         color: #2DCC70;
         margin-left: 40px;
         margin-top: 20px;
+    }
+    
+    .my-skills .progress .technique {
+        margin-left: 40px;
+    }
+    
+    .my-skills .progress .technique h3 {
+        color: #555;
+    }
+    
+    .my-skills .progress .technique div {
+        background: #F2F2F2;
+        height: 25px;
+    }
+    
+    .my-skills .progress .technique div span {
+        background: #2DCC70;
+        height: 25px;
+        display: block;
+        line-height: 25px;
+        text-align: right;
+        color: #fff;
+        font-weight: bold;
     }
     /*  End My Skills */
     /*  Start Resume */
