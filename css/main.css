@@ -190,3 +190,12 @@
         float: left;
     }
     /* End  Contact Me */
+    /* Start Footer(CopyRight) */
+    
+    .footer {
+        background: #191E22;
+        color: #6A6E71;
+        padding: 20px 0;
+        text-align: center;
+    }
+    /*End Footer(CopyRight) */
