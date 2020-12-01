@@ -275,10 +275,63 @@
         overflow: hidden;
     }
     
-    .my-education .main,
-    .my-education .exp {
+    .my-education .main {
         float: left;
         width: 50%;
+        margin-right: 5%;
+    }
+    
+    .my-education .main h2 {
+        margin: 25px 0 20px 40px;
+        color: #555;
+    }
+    
+    .my-education .main p {
+        margin: 0 0 10px 40px;
+        line-height: 1.6;
+        color: #666;
+    }
+    
+    .my-education .main:last-of-type {
+        margin-top: 25px;
+    }
+    
+    .my-education .exp {
+        float: left;
+        width: 45%;
+    }
+    
+    .my-education .exp h3 {
+        margin-top: 80px;
+        margin-bottom: 10px;
+    }
+    
+    .my-education .exp span {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .my-education .exp span:first-of-type {
+        color: #999;
+    }
+    
+    .my-education .exp span:last-of-type {
+        color: #FFF;
+        background: #2DCC70;
+        display: inline-block;
+        padding: 4px 10px;
+    }
+    
+    .my-education .exp hr {
+        margin: 20px 0;
+        background: #999;
+        height: 1px;
+        border: 0;
+    }
+    
+    .my-education .exp p {
+        line-height: 1.6;
+        color: #777;
     }
     /*  End My Education */
     /*  Start Testemonials */
