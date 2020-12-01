@@ -216,10 +216,6 @@
     }
     
     .my-skills .skills button {
-        border: 3px solid #2DCC70;
-        background: none;
-        padding: 10px 30px;
-        color: #2DCC70;
         margin-left: 40px;
         margin-top: 20px;
     }
@@ -251,8 +247,8 @@
     
     .resume {
         background: #f2f2f2;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 50px;
+        padding-bottom: 70px;
         text-align: center;
     }
     /*  End Resume */
@@ -332,3 +328,12 @@
         text-align: center;
     }
     /*End Footer(CopyRight) */
+    /* Start My own Framework */
+    
+    .my-own-button {
+        border: 3px solid #2DCC70;
+        background: none;
+        padding: 10px 30px;
+        color: #2DCC70;
+    }
+    /* End Framework */
