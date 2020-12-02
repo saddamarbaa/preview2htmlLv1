@@ -378,9 +378,19 @@
     /* Start Portfolio  */
     
     .portfolio {
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 50px;
+        padding-bottom: 70px;
         text-align: center;
+    }
+    
+    .portfolio h2 {
+        color: #777;
+    }
+    
+    .portfolio p {
+        line-height: 1.6;
+        color: #666;
+        margin-bottom: 30px;
     }
     
     .portfolio .our-work {
@@ -396,6 +406,9 @@
     .portfolio .our-work>div img {
         width: 92%;
         margin: 10px;
+        padding: 3px;
+        background: #fff;
+        border: 1px solid #ccc;
     }
     /* End  Portfolio  */
     /* Start  Contact Me */
