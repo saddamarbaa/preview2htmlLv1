@@ -3,9 +3,7 @@
 in this Project I build Compete Website using only Html4 and Css2
 with focus on design part is not Responsive Yet
 
-GitHub Pages(URL FOR TESTING)
-
-https://saddamarbaa.github.io/Preview2HtmlLv1/
+GitHub Pages(URL FOR TESTING)   :   https://saddamarbaa.github.io/Preview2HtmlLv1/
 
 
 
