@@ -439,6 +439,26 @@
         color: #6A6E71;
         padding: 20px 0;
         text-align: center;
+        overflow: hidden;
+    }
+    
+    .footer span {
+        float: left;
+    }
+    
+    .footer ul {
+        list-style: none;
+        padding-left: 0px;
+        margin: 0;
+        float: right;
+    }
+    
+    .footer ul li {
+        display: inline-block;
+    }
+    
+    .footer ul li img {
+        width: 25px;
     }
     /*End Footer(CopyRight) */
     /* Start My own Framework */
