@@ -5,9 +5,7 @@
    Website: TODO
    ========================================== */
 
-    /* =====================
-         Start Main Rulez
-       ===================== */
+     /*====== Start Main Rulez ======*/
 
     .container {
         width: 1170px;
@@ -16,11 +14,9 @@
 
     .clearFix {clear: both;}
 
-    /*  End Main Rulez */
+    /*====== End Main Rulez ===========*/
 
-    /* =====================
-          Start Header
-       ===================== */
+     /*====== Start Header ======*/
 
     .header .slider {
         background-image: url('../images/slider.jpg');   /* only CSS3 Feature in the page */
@@ -86,9 +82,7 @@
 
     /*  End Header */
 
-    /* =====================
-        Start Features
-       ===================== */
+  /*====== Start Features ======*/
 
     .features {
         overflow: hidden;
@@ -101,11 +95,9 @@
         height: 150px;
     }
 
-    /*  End Features */
+    /*====== End Features ======*/
 
-    /* =====================
-        Start About Me
-       ===================== */
+    /*====== Start About Me ======*/
 
     .about-me {
         background: #f2f2f2;
@@ -151,11 +143,9 @@
 
     .about-me .info .hobbies .content .text h3 {margin-bottom: 5px;}
 
-    /*  End About Me */
+    /*====== End About Me ======*/
 
-    /* =====================
-        Start My Skills
-       ===================== */
+    /*====== Start My Skills ======*/
 
     .my-skills {
         padding-top: 30px;
@@ -194,11 +184,9 @@
         font-weight: bold;
     }
 
-    /*  End My Skills */
+    /*====== End My Skills ======*/
 
-    /* =====================
-        Start  Resume
-       ===================== */
+    /*====== Start Resume ======*/
 
     .resume {
         background: #f2f2f2;
@@ -211,11 +199,9 @@
 
     .resume button {margin-top: 15px;}
 
-    /*  End Resume */
+    /*====== End Resume ======*/
 
-    /* =====================
-        Start My Education
-       ===================== */
+    /*====== Start Education ======*/
 
     .my-education {
         padding-top: 30px;
@@ -262,11 +248,9 @@
         padding: 4px 10px;
     }
 
-    /*  End My Education */
+    /*====== End Education ======*/
 
-    /* =====================
-        Start Testemonials
-       ===================== */
+    /*====== Start Testemonials ======*/
 
     .testemonials {
         background: #f2f2f2;
@@ -300,11 +284,9 @@
 
     .testemonials ul li:hover {background: #2DCC70;}
 
-    /*  End Testemonials */
+    /*====== End Testemonials ======*/
 
-    /* =====================
-        Start Portfolio
-       ===================== */
+    /*====== Start Portfolio ======*/
 
     .portfolio {
         padding-top: 50px;
@@ -330,11 +312,9 @@
         border: 1px solid #ccc;
     }
 
-    /* End Portfolio  */
+    /*====== End Portfolio ======*/
 
-    /* =====================
-        Start Contact Me
-       ===================== */
+    /*====== Start Contact Me ======*/
 
     .contact {
         background: #252f31;
@@ -395,11 +375,9 @@
         margin-top: 10px;
     }
 
-    /* End Contact Me */
+    /*====== End Contact Me ======*/
 
-    /* =====================
-        Start Footer
-       ===================== */
+    /*====== Start Footer ======*/
 
     .footer {
         background: #191E22;
@@ -420,11 +398,9 @@
 
     .footer ul li img {width: 25px;}
 
-    /* End Footer */
+      /*====== End Footer ======*/
 
-    /* =========================================================
-        Start creating My own Framework for some repeated styles
-       ========================================================== */
+      /*====== Start creating My own Framework for some repeated styles ======*/
 
     .my-own-button {
         border: 3px solid #2DCC70;
@@ -445,4 +421,4 @@
 
     h2, h3 {color: #777;}
 
-    /* End Framework */
+    /*====== End Framework ======*/
