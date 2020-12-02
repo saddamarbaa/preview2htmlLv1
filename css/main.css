@@ -1,3 +1,9 @@
+/* ==========================================
+   main.css
+   These are the final styles for the project.
+   Author:  Saddam Arbaa
+   Website: TODO
+   ========================================== */
 
     /* =====================
          Start Main Rulez
@@ -22,7 +28,7 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        height: 600px;   /* maybe remvoe latter */
+        height: 600px;
     }
 
     .header .slider .intro {
@@ -80,7 +86,9 @@
 
     /*  End Header */
 
-    /*  Start Features */
+    /* =====================
+        Start Features
+       ===================== */
 
     .features {
         overflow: hidden;
@@ -95,7 +103,9 @@
 
     /*  End Features */
 
-    /* Start About Me */
+    /* =====================
+        Start About Me
+       ===================== */
 
     .about-me {
         background: #f2f2f2;
@@ -143,7 +153,9 @@
 
     /*  End About Me */
 
-    /*  Start My Skills */
+    /* =====================
+        Start My Skills
+       ===================== */
 
     .my-skills {
         padding-top: 30px;
@@ -184,7 +196,9 @@
 
     /*  End My Skills */
 
-    /*  Start Resume */
+    /* =====================
+        Start  Resume
+       ===================== */
 
     .resume {
         background: #f2f2f2;
@@ -199,7 +213,9 @@
 
     /*  End Resume */
 
-    /*  Start My Education */
+    /* =====================
+        Start My Education
+       ===================== */
 
     .my-education {
         padding-top: 30px;
@@ -248,7 +264,9 @@
 
     /*  End My Education */
 
-    /*  Start Testemonials */
+    /* =====================
+        Start Testemonials
+       ===================== */
 
     .testemonials {
         background: #f2f2f2;
@@ -284,7 +302,9 @@
 
     /*  End Testemonials */
 
-    /* Start Portfolio  */
+    /* =====================
+        Start Portfolio
+       ===================== */
 
     .portfolio {
         padding-top: 50px;
@@ -312,7 +332,9 @@
 
     /* End Portfolio  */
 
-    /* Start Contact Me */
+    /* =====================
+        Start Contact Me
+       ===================== */
 
     .contact {
         background: #252f31;
@@ -373,9 +395,11 @@
         margin-top: 10px;
     }
 
-    /* End  Contact Me */
+    /* End Contact Me */
 
-    /* Start Footer*/
+    /* =====================
+        Start Footer
+       ===================== */
 
     .footer {
         background: #191E22;
@@ -396,9 +420,11 @@
 
     .footer ul li img {width: 25px;}
 
-    /*End Footer */
+    /* End Footer */
 
-    /* Start My own Framework */
+    /* =========================================================
+        Start creating My own Framework for some repeated styles
+       ========================================================== */
 
     .my-own-button {
         border: 3px solid #2DCC70;
@@ -409,6 +435,7 @@
     }
 
     /* floating Element left */
+
     .my-float-left {float: left;}
 
     p {
