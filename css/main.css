@@ -1,4 +1,7 @@
-    /*  Start Main Rulez */
+
+    /* =====================
+         Start Main Rulez
+       ===================== */
 
     .container {
         width: 1170px;
@@ -9,7 +12,9 @@
 
     /*  End Main Rulez */
 
-    /*  Start Header */
+    /* =====================
+          Start Header
+       ===================== */
 
     .header .slider {
         background-image: url('../images/slider.jpg');   /* only CSS3 Feature in the page */
@@ -134,10 +139,7 @@
 
     .about-me .info .hobbies .content .text p {margin-top: 0px;}
 
-    .about-me .info .hobbies .content .text h3 {
-        margin-bottom: 5px;
-        color: #555;
-    }
+    .about-me .info .hobbies .content .text h3 {margin-bottom: 5px;}
 
     /*  End About Me */
 
@@ -164,7 +166,7 @@
     }
 
     .my-skills .progress .technique {margin-left: 40px;}
-    
+
     .my-skills .progress .technique div {
         background: #F2F2F2;
         height: 25px;
@@ -191,19 +193,12 @@
         text-align: center;
     }
 
-    .resume h2 {
-        font-weight: bold;
-        color: #666;
-    }
+    .resume p {padding: 0 20px;}
 
-    .resume p {
-        padding: 0 20px;
-    }
+    .resume button {margin-top: 15px;}
 
-    .resume button {
-        margin-top: 15px;
-    }
     /*  End Resume */
+
     /*  Start My Education */
 
     .my-education {
@@ -224,22 +219,13 @@
         margin-right: 5%;
     }
 
-    .my-education .main h2 {
-        margin: 25px 0 20px 40px;
-        color: #555;
-    }
+    .my-education .main h2 {margin: 25px 0 20px 40px;}
 
-    .my-education .main p {
-        margin: 0 0 10px 40px;
-    }
+    .my-education .main p {margin: 0 0 10px 40px;}
 
-    .my-education .main:last-of-type {
-        margin-top: 25px;
-    }
+    .my-education .main:last-of-type {margin-top: 25px;}
 
-    .my-education .exp {
-        width: 45%;
-    }
+    .my-education .exp {width: 45%;}
 
     .my-education .exp h3 {
         margin-top: 80px;
@@ -251,9 +237,7 @@
         margin-bottom: 10px;
     }
 
-    .my-education .exp span:first-of-type {
-        color: #999;
-    }
+    .my-education .exp span:first-of-type {color: #999;}
 
     .my-education .exp span:last-of-type {
         color: #FFF;
@@ -261,7 +245,9 @@
         display: inline-block;
         padding: 4px 10px;
     }
+
     /*  End My Education */
+
     /*  Start Testemonials */
 
     .testemonials {
@@ -276,10 +262,7 @@
         font: italic bold 17px/1.7 Arial, Tahoma
     }
 
-    .testemonials h3 {
-        color: #777;
-        margin-bottom: 30px;
-    }
+    .testemonials h3 {margin-bottom: 30px;}
 
     .testemonials ul {
         list-style: none;
@@ -295,14 +278,12 @@
         cursor: pointer;
     }
 
-    .testemonials ul li.active {
-        background: #2DCC70;
-    }
+    .testemonials ul li.active {background: #2DCC70;}
 
-    .testemonials ul li:hover {
-        background: #2DCC70;
-    }
+    .testemonials ul li:hover {background: #2DCC70;}
+
     /*  End Testemonials */
+
     /* Start Portfolio  */
 
     .portfolio {
@@ -311,17 +292,9 @@
         text-align: center;
     }
 
-    .portfolio h2 {
-        color: #777;
-    }
+    .portfolio p {margin-bottom: 30px;}
 
-    .portfolio p {
-        margin-bottom: 30px;
-    }
-
-    .portfolio .our-work {
-        overflow: hidden;
-    }
+    .portfolio .our-work {overflow: hidden;}
 
     .portfolio .our-work>div {
         float: left;
@@ -336,7 +309,9 @@
         background: #fff;
         border: 1px solid #ccc;
     }
+
     /* End Portfolio  */
+
     /* Start Contact Me */
 
     .contact {
@@ -361,13 +336,9 @@
         margin-left: 40px;
     }
 
-    .contact p strong {
-        color: #D1D6DA;
-    }
+    .contact p strong {color: #D1D6DA;}
 
-    .contact .form {
-        width: 45%;
-    }
+    .contact .form {width: 45%;}
 
     .contact .form label {
         display: block;
@@ -401,8 +372,10 @@
         border: 0px;
         margin-top: 10px;
     }
+
     /* End  Contact Me */
-    /* Start Footer(CopyRight) */
+
+    /* Start Footer*/
 
     .footer {
         background: #191E22;
@@ -419,14 +392,12 @@
         float: right;
     }
 
-    .footer ul li {
-        display: inline-block;
-    }
+    .footer ul li {display: inline-block;}
 
-    .footer ul li img {
-        width: 25px;
-    }
-    /*End Footer(CopyRight) */
+    .footer ul li img {width: 25px;}
+
+    /*End Footer */
+
     /* Start My own Framework */
 
     .my-own-button {
@@ -436,17 +407,15 @@
         color: #2DCC70;
         font-weight: bold;
     }
-    /* floating Element left */
 
-    .my-float-left {
-        float: left;
-    }
+    /* floating Element left */
+    .my-float-left {float: left;}
 
     p {
         line-height: 1.7;
         color: #888;
     }
-    h2, h3 {
-        color: #777;
-    }
+
+    h2, h3 {color: #777;}
+
     /* End Framework */
