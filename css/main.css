@@ -5,30 +5,18 @@
    Website: TODO
    ========================================== */
 
-   /*====== Start Main Rulez ======*/
-
-    .container {
-        width: 1170px;
-        margin: auto;
-    }
-
-    .clearFix {clear: both;}
-
-    /*====== End Main Rulez ===========*/
-
     /*====== Start Header ======*/
 
     .header .slider {
         background-image: url('../images/slider.jpg');   /* only CSS3 Feature in the page */
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+        -webkit-background-size: cover; /* CSS3 */
+        -moz-background-size: cover; /* CSS3 */
+        -o-background-size: cover; /* CSS3 */
+        background-size: cover; /* CSS3 */
         height: 600px;
     }
 
     .header .slider .intro {
-        height: 600px;
         padding-top: 200px;
         text-align: center;
         color: #FFF;
@@ -37,9 +25,11 @@
     .header .slider .intro h1 {
         margin: 0 auto;
         width: 600px;
-        border-top: 4px solid #fff;
-        border-bottom: 4px solid #fff;
+        font-size: 50px;
+        border-top: 4px solid #FFF;
+        border-bottom: 4px solid #FFF;
         padding: 5px 0;
+        color: #FFF;
     }
 
     .header .slider .intro button {
@@ -132,9 +122,9 @@
         margin-right: 5%;
     }
 
-    .about-me .info .hobbies .content .icon img {
-        max-width: 100%;
-        margin: 40px 10px 0 0;
+    .about-me .info .hobbies .content .icon i {
+      margin-top: 30px;
+      color: #2DCC70;
     }
 
     .about-me .info .hobbies .content .text {width: 83%;}
@@ -253,7 +243,7 @@
     /*====== Start Testemonials ======*/
 
     .testemonials {
-        background: #f2f2f2;
+        background: #F2F2F2;
         padding-top: 50px;
         padding-bottom: 50px;
         text-align: center;
@@ -261,7 +251,7 @@
 
     .testemonials q {
         color: #888;
-        font: italic bold 17px/1.7 Arial, Tahoma
+        color:#888;font:italic bold 18px/1.8 Arial, Tahoma
     }
 
     .testemonials h3 {margin-bottom: 30px;}
@@ -269,13 +259,13 @@
     .testemonials ul {
         list-style: none;
         padding-left: 0;
+        text-align:center;
     }
 
     .testemonials ul li {
         width: 15px;
         height: 15px;
-        border: 1px solid #2DCC70;
-        text-align: center;
+        border:2px solid #2DCC70;
         display: inline-block;
         cursor: pointer;
     }
@@ -300,7 +290,7 @@
 
     .portfolio .our-work>div {
         float: left;
-        width: 33.33333%;
+        width: 33.333333%;
         margin-bottom: 10px;
     }
 
@@ -317,7 +307,7 @@
     /*====== Start Contact Me ======*/
 
     .contact {
-        background: #252f31;
+        background: #252F31;
         overflow: hidden;
         margin-top: 50px;
         padding-bottom: 70px;
@@ -345,7 +335,7 @@
     .contact .form label {
         display: block;
         color: #D1D6DA;
-        margin: 10px;
+        margin: 10px 0;
     }
 
     .contact .form input[type="text"] {
@@ -364,14 +354,14 @@
         border: 0;
         width: 80%;
         margin-bottom: 10px;
-        height: 280px;
+        height: 300px;
     }
 
     .contact .form input[type="submit"] {
         background: #191E22;
         color: #FFFF;
         padding: 10px 20px;
-        border: 0px;
+        border: 0;
         margin-top: 10px;
     }
 
@@ -380,8 +370,8 @@
     /*====== Start Footer ======*/
 
     .footer {
-        background: #191E22;
-        color: #6A6E71;
+        background-color:#191E22;
+        color:#6A6E71;
         padding: 20px 0;
         text-align: center;
         overflow: hidden;
@@ -389,30 +379,26 @@
 
     .footer ul {
         list-style: none;
-        padding-left: 0px;
+        padding-left: 0;
         margin: 0;
         float: right;
     }
 
     .footer ul li {display: inline-block;}
 
-    .footer ul li img {width: 25px;}
-
       /*====== End Footer ======*/
 
-      /*====== Start creating My own Framework for some repeated styles ======*/
+      /*====== Start creating My own Framework for some repeated styles(Main Rulez) ======*/
 
     .my-own-button {
-        border: 3px solid #2DCC70;
-        background: none;
-        padding: 10px 30px;
-        color: #2DCC70;
-        font-weight: bold;
+      background:none;
+      border:3px solid #2DCC70;
+      padding:10px 30px;
+      color:#2DCC70;
+      font-weight:bold;
     }
 
-    /* floating Element left */
-
-    .my-float-left {float: left;}
+    .my-float-left {float: left;} /* Floating Element Left */
 
     p {
         line-height: 1.7;
@@ -420,5 +406,12 @@
     }
 
     h2, h3 {color: #777;}
+
+    .container {
+        width: 1170px;
+        margin: auto;
+    }
+
+    .clearFix {clear: both;}
 
     /*====== End Framework ======*/
