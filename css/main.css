@@ -416,20 +416,67 @@
     .contact {
         background: #252f31;
         overflow: hidden;
+        margin-top: 50px;
+        padding-bottom: 70px;
+    }
+    
+    .contact .info {
+        width: 50%;
+        float: left;
+        margin-right: 5%;
     }
     
     .contact h2 {
+        margin-left: 40px;
         color: #fff;
     }
     
     .contact p {
         color: #6A6E71;
+        margin-left: 40px;
+        line-height: 1.7;
     }
     
-    .contact .info,
+    .contact p strong {
+        color: #D1D6DA;
+    }
+    
     .contact .form {
-        width: 50%;
+        width: 45%;
         float: left;
+    }
+    
+    .contact .form label {
+        display: block;
+        color: #D1D6DA;
+        margin: 10px;
+    }
+    
+    .contact .form input[type="text"] {
+        background: #4B5557;
+        color: #fff;
+        padding: 10px;
+        border: 0;
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    
+    .contact .form textarea {
+        background: #4B5557;
+        color: #fff;
+        padding: 10px;
+        border: 0;
+        width: 80%;
+        margin-bottom: 10px;
+        height: 280px;
+    }
+    
+    .contact .form input[type="submit"] {
+        background: #191E22;
+        color: #FFFF;
+        padding: 10px 20px;
+        border: 0px;
+        margin-top: 10px;
     }
     /* End  Contact Me */
     /* Start Footer(CopyRight) */
