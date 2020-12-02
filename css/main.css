@@ -338,9 +338,41 @@
     
     .testemonials {
         background: #f2f2f2;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
         text-align: center;
+    }
+    
+    .testemonials q {
+        color: #888;
+        font: italic bold 17px/1.7 Arial, Tahoma
+    }
+    
+    .testemonials h3 {
+        color: #777;
+        margin-bottom: 30px;
+    }
+    
+    .testemonials ul {
+        list-style: none;
+        padding-left: 0;
+    }
+    
+    .testemonials ul li {
+        width: 15px;
+        height: 15px;
+        border: 1px solid #2DCC70;
+        text-align: center;
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    .testemonials ul li.active {
+        background: #2DCC70;
+    }
+    
+    .testemonials ul li:hover {
+        background: #2DCC70;
     }
     /*  End Testemonials */
     /* Start Portfolio  */
