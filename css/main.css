@@ -5,7 +5,7 @@
    Website: TODO
    ========================================== */
 
-     /*====== Start Main Rulez ======*/
+   /*====== Start Main Rulez ======*/
 
     .container {
         width: 1170px;
@@ -16,7 +16,7 @@
 
     /*====== End Main Rulez ===========*/
 
-     /*====== Start Header ======*/
+    /*====== Start Header ======*/
 
     .header .slider {
         background-image: url('../images/slider.jpg');   /* only CSS3 Feature in the page */
@@ -80,9 +80,9 @@
     .header .navbar ul li.active a,
     .header .navbar ul li a:hover {color: #30B576;}
 
-    /*  End Header */
+    /*====== End Header ======*/
 
-  /*====== Start Features ======*/
+    /*====== Start Features ======*/
 
     .features {
         overflow: hidden;
