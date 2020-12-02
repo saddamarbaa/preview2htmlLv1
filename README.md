@@ -1,6 +1,6 @@
 # Preview2HtmlLv1
 
-in this Project I build compete Website using only Html4 and Css2
+in this Project I build Compete Website using only Html4 and Css2
 with focus on design part is not Responsive Yet
 
 GitHub Pages(URL FOR TESTING)
