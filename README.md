@@ -7,33 +7,6 @@ GitHub Pages(URL FOR TESTING)   :   https://saddamarbaa.github.io/Preview2HtmlLv
 
 
 
-![image](https://user-images.githubusercontent.com/51326421/100891090-7f24a900-34eb-11eb-9bd7-95681f2839c2.png)
-
-
-![image](https://user-images.githubusercontent.com/51326421/100890098-72538580-34ea-11eb-941f-4d3c0d0bc4d3.png)
-
-
-![image](https://user-images.githubusercontent.com/51326421/100890249-9d3dd980-34ea-11eb-801c-dfedb6c92498.png)
-
-
-![image](https://user-images.githubusercontent.com/51326421/100890393-c52d3d00-34ea-11eb-87cc-3c1fa8b6402b.png)
-
-
-![image](https://user-images.githubusercontent.com/51326421/100890471-e0984800-34ea-11eb-9ce6-db927a53743f.png)
-
-
-![image](https://user-images.githubusercontent.com/51326421/100890573-f9086280-34ea-11eb-9e52-8e5a2dc1380a.png)
-
-
-![image](https://user-images.githubusercontent.com/51326421/100890857-4553a280-34eb-11eb-8d32-4b15385e1999.png)
-
-
-![image](https://user-images.githubusercontent.com/51326421/100890720-205f2f80-34eb-11eb-9004-c5a93f9a35c2.png)
-
-
-
-
-
 
 ![image](https://user-images.githubusercontent.com/51326421/101822767-6f950800-3b5c-11eb-89aa-02ef68eb8445.png)
 
